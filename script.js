@@ -68,6 +68,10 @@ btnRoll.addEventListener('click', function () {
   }
 });
 
+const newFeature = function () {
+  console.log('Welcome to the application!');
+};
+
 btnHold.addEventListener('click', function () {
   if (playing) {
     //1. Add current score to score of active player
@@ -95,3 +99,5 @@ btnHold.addEventListener('click', function () {
 });
 
 btnNew.addEventListener('click', init);
+
+newFeature();
